@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Marquee Text</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: darkblue;
+    }
+    marquee {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <marquee behavior="scroll" direction="left" scrollamount="5">
+    🚩 Welcome to the Tableau Test Production - Available for 30 Days!!! 🚩
+  </marquee>
+</body>
+</html>
